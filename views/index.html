@@ -8,6 +8,11 @@
 	<link rel="stylesheet" href="/style/style.css" />
 </head>
 <body>
+	<label for="URL">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter full URL" />
+        <br />
+	<input type="submit" value="GenerateShortURL" />
+	
 	<div class = "container">
 	<div class = "banner">
 		<img class="newappIcon" src="images/newapp-icon.png">
@@ -15,11 +20,7 @@
 			Favorites Organizer powered by Cloudant - Hello Blue Mix
 		</p>
 	</div>
-
-	<label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your full name" />
-        <br />
-		
+	
 	<section>
 		<table id='notes' class='records' border='0' cellspacing='0' cellpadding='0'><tbody></tbody></table>
 	</section>
